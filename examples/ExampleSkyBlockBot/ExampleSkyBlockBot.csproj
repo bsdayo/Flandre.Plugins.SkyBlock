@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Flandre.Plugins.SkyBlock\Flandre.Plugins.SkyBlock.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Flandre.Adapters.OneBot" Version="2.0.0-rc.1" />
+    </ItemGroup>
+
+</Project>
